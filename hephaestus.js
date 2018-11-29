@@ -5,7 +5,7 @@ const appUrl = agartha.get('EXAMPLE_APP_URL')
 const appRoot = agartha.get('EXAMPLE_APP_ROOT')
 
 module.exports = exports = {
-  appName: 'Examples: Hephaestus bare site',
+  appName: 'Hephaestus bare site',
   shortName: 'hephaestus-site-bare',
   appUrl: (appUrl) ? appUrl : 'http://127.0.0.1:8080',
   appRoot:  (appRoot) ? appRoot : 'http://127.0.0.1:8080',
