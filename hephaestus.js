@@ -1,6 +1,7 @@
 'use strict'
 
-const agartha = process.agartha
+const { agartha } = require('hephaestus');
+
 const appUrl = agartha.get('EXAMPLE_APP_URL');
 
 module.exports = exports = {
